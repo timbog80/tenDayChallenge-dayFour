@@ -1,101 +1,82 @@
 #main-container
 	width: 960px
-	margin: 150px auto
-
+	margin: 30px auto
+	font-weight: 600
+	text-align: center
+	
 	a
 		color: lighten($accent-color, 50%)
 
 		&:hover
 			text-decoration: underline
 
+
+#user
+	text-align: right
+	margin-bottom: 80px
+	color: lighten($accent-color, 50%)
+	
+
 header
-	+clearfix
-	margin-bottom: 75px
 
-	#left-header
-		float: left
-		+clearfix
-
-		#logo
-			width: 50px
-			margin-right: 20px
-			vertical-align: middle
-
-	.description
-		display: inline-block
-		vertical-align: middle
-
-		p
-			padding: 0
-			margin: 0
-
-	#right-header
-		float: right
-		+clearfix
-
-		.user
-			display: inline-block
-			vertical-align: middle
-
-		a
-			display: inline-block
-			vertical-align: middle
-
-		.profile-pic
-			width: 30px
-			height: auto
-			margin: 0 0 0 15px
-			display: inline-block
-			border-radius: 100%
-			vertical-align: middle
+	#logo
+		width: 75px
+		margin-bottom: 30px
 
 nav
-	width: 100%
-	position: relative
-	margin-bottom: 25px
-	height: 30px
-	display: inline-block
-	vertical-align: middle
 
-	i
-		font-size: 20px
-
-	#search
-		+position(absolute, 0 null null 0)
-		display: inline-block
-		vertical-align: middle
-
-	#filter
-		+position(absolute, 0 0 null null)
-		display: inline-block
-		vertical-align: middle
+	#social-links
+		margin: 60px 0 30px 0
 
 		a
 			display: inline-block
-			padding: 3px 10px
-			border-radius: 2px
+
+		i
+			font-size: 20px
+			margin: 0 12px
+			color: lighten($accent-color, 50%)
 
 			&:hover
-				text-decoration: none
+				color: lighten($accent-color, 40%)
 
-		.active
-			background: lighten($accent-color, 90%)
+	#about
+
+		.submit
+			display: block
+			margin-top: 15px
+			color: lighten($accent-color, 40%)
+
+		ul
+			padding: 0
+			margin: 10px 0 
+			color: lighten($accent-color, 50%)
+
+			li
+				display: inline-block
+				list-style-type: none
+				margin: 0 5px
+
+		a
+			color: lighten($accent-color, 50%)
+
+			&:hover
+				text-decoration: underline
+
+#options
+	text-align: left
+	margin-top: 60px
+
+	a
+		font-size: 20px
+		color: lighten($accent-color, 70%)
 
 
-.post
-	text-align: center
 
-	p
-		margin-top: 10px
+#content
+	margin-top: 15px
 
+	.post
+		margin-bottom: 60px
 
-
-
-
-
-		
-		
-
-
-
-
+		p
+			margin: 10px 0
