@@ -8,4 +8,4 @@ Devtips Starter Kit:
 Bourbon.io:
 [Visit officail site](http://bourbon.io/)
 
-![screenshots](assets/img/screenshot.png)
+![screenshots](assets/img/screen.png)
